@@ -47,9 +47,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('⚜️My Developer⚜️', url='https://t.me/SB_World_01'),
-        InlineKeyboardButton('🔴Channel🔴', url ='https://t.me/SBcinemakal')
     ],[
+        InlineKeyboardButton('⚜️My Developer⚜️', url='https://t.me/SB_World_01'),
+        
+        InlineKeyboardButton('🔴Channel🔴', url ='https://t.me/SBcinemakal')
         InlineKeyboardButton('♻️Group♻️', url='https://t.me/SBcinemalokam')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
@@ -71,7 +72,7 @@ async def start(bot, update):
 async def help(bot, update):
     buttons = [[
         InlineKeyboardButton('🏠Home ', callback_data='start'),
-        InlineKeyboardButton('About ', callback_data='about')
+        InlineKeyboardButton('About🔖 ', callback_data='about')
     ],[
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
